@@ -10,6 +10,7 @@ PATH
   specs:
     ryte_public (0.0.1)
       rails (~> 3.2.8)
+      ryte
 
 GEM
   remote: https://rubygems.org/
