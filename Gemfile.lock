@@ -1,3 +1,15 @@
+PATH
+  remote: vendor/ryte
+  specs:
+    ryte (0.0.1)
+      rails (~> 3.2.8)
+
+PATH
+  remote: vendor/ryte_public
+  specs:
+    ryte_public (0.0.1)
+      rails (~> 3.2.8)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -105,7 +117,9 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jquery-rails
-  rails (= 3.2.8)
+  rails
+  ryte!
+  ryte_public!
   sass-rails (~> 3.2.3)
   sqlite3
   uglifier (>= 1.0.3)
