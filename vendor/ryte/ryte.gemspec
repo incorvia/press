@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
   s.add_dependency "mongoid"
   s.add_dependency "mongoid_slug"
   s.add_dependency "strong_parameters"
+  s.add_dependency "devise"
 
   s.add_development_dependency "sqlite3"
   s.add_development_dependency "rspec-rails"
