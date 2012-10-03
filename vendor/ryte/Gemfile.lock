@@ -10,6 +10,7 @@ PATH
   remote: .
   specs:
     ryte (0.0.1)
+      configatron
       devise
       mongoid
       mongoid_slug
@@ -50,6 +51,8 @@ GEM
     bcrypt-ruby (3.0.1)
     builder (3.0.3)
     coderay (1.0.7)
+    configatron (2.9.1)
+      yamler (>= 0.1.0)
     devise (2.1.2)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.1)
@@ -146,6 +149,7 @@ GEM
     tzinfo (0.3.33)
     warden (1.2.1)
       rack (>= 1.0)
+    yamler (0.1.0)
 
 PLATFORMS
   ruby
