@@ -15,6 +15,14 @@ Dir[File.join(ENGINE_RAILS_ROOT, "spec/support/**/*.rb")].each {|f| require f }
 
 RSpec.configure do |config|
   config.include FactoryGirl::Syntax::Methods
-  
+
   config.use_transactional_fixtures = true
+
+  config.before :each do
+    pre_flight
+  end
+
+  config.after :each do
+    post_flight
+  end
 end
