@@ -11,8 +11,6 @@ end
 
 ## Test
 if Rails.env.test?
-  # Path to the user directory
-  Ryte::Config.user_path = File.join(Rails.root, "spec", "support", "user")
 end
 
 ## Product

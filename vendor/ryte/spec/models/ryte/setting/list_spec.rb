@@ -221,7 +221,7 @@ describe Ryte::Setting::List do
   describe '.users_path' do
 
     it 'be correct' do
-      path = File.join(Rails.root, 'spec', 'support', 'user')
+      path = File.join(Rails.root, 'user')
       Settings.users_path.should eql(path)
     end
   end

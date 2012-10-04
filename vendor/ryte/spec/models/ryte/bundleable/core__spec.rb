@@ -108,8 +108,7 @@ describe Ryte::Bundleable::Core_ do
   describe 'bundle_dir' do
 
     it 'be the correct directory' do
-      d = File.join(Rails.root, 'spec', 'support',
-                    'user', 'mocks', 'default', '/')
+      d = File.join(Rails.root, 'user', 'mocks', 'default', '/')
       bundle.bundle_dir.should eql(d)
     end
   end
