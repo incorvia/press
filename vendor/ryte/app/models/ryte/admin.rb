@@ -1,8 +1,6 @@
 module Ryte
   class Admin
     include Mongoid::Document
-    include ActiveModel::ForbiddenAttributesProtection
-
     # Include default devise modules. Others available are:
     # :token_authenticatable, :confirmable,
     # :lockable, :timeoutable and :omniauthable

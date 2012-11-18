@@ -1,3 +1,12 @@
 Ryte::Engine.routes.draw do
-  resources :posts
+  devise_for :admins, {
+    class_name: "Ryte::Admin",
+    module: :devise
+  }
+
+  scope "ryte" do
+    resources :posts
+  end
+
+  root to: 'cms#dashboard'
 end

@@ -11,8 +11,8 @@ module Ryte
       @name           = name
       @files          = bundle_files
       @settings_file  = bundle_settings_file
-      @settings       = []
       @settings_hash  = load_settings
+      @settings       = []
       @required_files = %w()
       @required_keys  = %w(bundle_type settings)
     end
